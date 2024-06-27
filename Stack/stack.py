@@ -18,3 +18,8 @@ class Stack:
     def size(self):
         return len(self.items)
     
+    def pop_peek(self):
+        val=self.peek()
+        self.pop()
+        return val
+    
